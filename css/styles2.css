@@ -1,0 +1,228 @@
+*{
+    margin:0;
+    padding:0;
+     font-family:'Playfair Display', serif;
+     
+}
+.head{
+    display: flex;
+    width: 100%;
+    height: 180px;
+    background-image :linear-gradient(rgb(4, 77, 4),rgb(4,77,4,0.8)),url(/images/banner.jpg);
+    background-position: center;
+}
+ .head .logo a{
+    text-decoration: none;
+    color: rgb(230, 255, 233);
+    font-size: 30px;    
+    }
+.head .logo img{
+    padding-top: 30px;
+    padding-left: 20px;
+}
+.head .menu-left{
+    position: fixed;
+    top:0px;
+    left:180px;
+    background-color: transparent;
+    width:600px;
+    height: 100px;
+    z-index: 100;
+}
+.head .menu-left li{
+    display:inline;
+    
+}
+.head ul.menu-left{
+    text-align: center;
+    list-style: none;
+    margin:auto;
+    height: 100px;
+    right:0px;
+    box-shadow: 0px 4px 0px rgb(1, 49, 1);
+}
+.head .menu-left li a{
+    text-align: center;
+    width: 12%;
+    display:inline-block;
+    color : white;
+    text-decoration: none;
+    font-size: 15px;
+    padding: 40px 20px 20px 20px;
+    text-transform: uppercase;
+    transition: 0.4s;
+    box-shadow: 0px 4px 0px rgb(1, 49, 1);
+}
+.head .menu-left li :hover
+{
+    background-color:rgb(1, 146, 103);
+    padding-bottom: 35px;
+}
+.head .show ul{
+    display: inline;
+}
+.head .show li{
+    display:inline-block;
+}
+.head .show  a{
+    position: relative;
+    top:125px;
+    left:10px;
+    text-decoration: none;
+    color: white;
+    font-size: 30px;
+}
+.head .show a:hover{
+    text-decoration: underline; 
+    background-color:rgb(1, 146, 103);
+    transition: 0.5s;
+}
+.head .show ul li a{
+    font-size: 20px;
+}
+.head .show ul li :hover{
+   
+    padding: 8px 8px 8px 8px;
+    transition: 0.5s;
+}
+.show .search{
+    position: absolute;
+    right: 23px;
+    color:rgb(255, 246, 246);
+    border: none;
+    top: 120px;
+    font-size: 20px;
+     border-bottom:2px solid rgb(255, 255, 255) ;
+}
+.show .search input{
+    width: 260px;
+    background-color: transparent;
+    outline:0;
+    height: 50px;
+    padding-bottom: 2px;
+    font-size: 20px;
+    border: none;
+    color: white;
+}
+.show .search button{
+   border: none;
+   background-color: transparent;
+   width: 50px;
+   cursor: pointer;
+}
+.show .search i{
+    font-size: 20px;
+    color: white;
+}
+
+
+
+.body{
+    display: flex;
+    justify-content: space-between;
+}
+.body .main{
+    width:70%;
+    height: 1400px;
+    margin-left: 30px;
+    margin-top: 50px;
+    border-left: 1px solid gray;
+    box-shadow: -2px 10px 3px gray;
+}
+.body .main h2{
+    color: rgb(65, 62, 62);
+    font-size: 30px;
+    border-bottom:2px solid rgb(187, 183, 183) ;
+    padding-left: 3px;
+}
+.body .main .anh1{
+    margin-left: 70px;
+    margin-top: 20px;
+    border-radius: 4px;
+}
+.body .main p{
+    margin-left: 30px;
+    margin-right: 10px;
+    font-size: 20px;
+    color:rgb(56, 56, 56)
+}
+.body .main p img{
+   width:20%;
+}
+
+
+
+.body .right-menu{
+    width:25%;
+    height:700px;
+    margin-right: 10px;
+    margin-top: 38px;
+    padding-left: 3px;
+    border-left: 2px solid rgb(179, 178, 178);
+}
+.body .right-menu h3{
+   font-size: 28px;
+   color: rgb(255, 255, 255);
+   background-color: rgb(35, 56, 151);
+   width: 200px;
+   padding:3px 3px 3px 3px;
+   border-radius: 3px 3px 32px 12px;
+}
+.body .right-menu hr{
+    color: rgb(35, 56, 151);
+}
+.body .right-menu .item{
+    margin-top: 10px;
+    width: 100%;
+    height: 20%;
+    display: flex;
+    background-color: rgb(223, 221, 221);
+}
+.body .right-menu .item .box{
+    background-color: bisque;
+    width: 30%;
+    border-bottom: 1px solid black;
+    text-align: center;
+    padding: 10px 10px 10px 10px;
+}
+.body .right-menu .item .box h2{
+    font-size: 40px;
+    color: rgb(94, 94, 94);
+}
+.body .right-menu .item a{
+    text-decoration: none;
+    color: rgb(49, 49, 49);
+    font-size: 15px;
+    margin-top: 20px;
+}
+
+
+.foot{
+    position: absolute;
+    top:1700px;
+    margin-top:40px;
+    width: 100%;
+    height: 200px;
+    background-image: linear-gradient(rgb(69, 151, 31),rgba(244,201,108,0.6));
+}
+footer{
+   position: relative;
+   display: flex;
+}
+.foot footer{
+    padding-top: 30px;
+}
+.foot a{
+    margin-top: 20px;
+    color:white;
+    text-decoration: none;
+    font-size: 30px;
+}
+.foot p{
+    position: relative;
+    bottom: 70px;
+    left: 30px;
+    color: white;
+    margin-left: 120px;
+    margin-bottom: 90px;
+}

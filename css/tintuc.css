@@ -1,0 +1,168 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family:'Playfair Display', serif;
+}
+.show .search{
+    position: absolute;
+    right: 23px;
+    color:rgb(255, 246, 246);
+    border: none;
+    top: 120px;
+    font-size: 20px;
+     border-bottom:2px solid rgb(255, 255, 255) ;
+}
+.show .search input{
+    width: 260px;
+    background-color: transparent;
+    outline:0;
+    height: 50px;
+    padding-bottom: 2px;
+    font-size: 20px;
+    border: none;
+    color: white;
+}
+.show .search button{
+   border: none;
+   background-color: transparent;
+   width: 50px;
+   cursor: pointer;
+}
+.show .search i{
+    font-size: 20px;
+    color: white;
+}
+.main{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.title h1{
+    margin-left: 20px;
+    margin-top: 50px;
+    font-size: 50px;
+}
+.title h3{
+position: absolute;
+right:180px ;
+font-size: 20px;
+top:250px;
+border-bottom:1px solid gray ;
+}
+.main .left-main{
+    width: 70%;
+    height: 500px;
+    margin-top: 30px;
+    margin-left: 15px;
+    display: flex;
+    justify-content: space-between;
+}
+.main .left-main .item{
+    width: 30%;
+    height: 400px;
+}
+.main .left-main .item img{
+    width: 265px;
+    height: 200px;
+}
+.main .left-main a{
+    font-size: 30px;
+    text-decoration: none;
+    color: rgb(86, 86, 86);
+}
+.main .left-main .item :hover{
+    background-color: rgb(197, 197, 197);
+     border-radius: 5px;
+}
+.main .left-main .item a:HOVER{
+    color: rgb(173, 27, 27);
+}
+.main .right-main{
+    width: 25%;
+    background-color: rgb(226, 226, 226);
+    height: 1150px;
+    position: absolute;
+    top:180px;
+    right: 0px;
+    z-index: -1;
+}
+.main .right-main .item2{
+   display: flex;
+   width:315px;
+   background-color: #cecece;
+   z-index: 10;
+   height: 150px;
+   border-bottom:1px solid white ;
+   justify-content: space-between;
+}
+.item2:first-child{
+    margin-top: 100px;
+}
+.main .right-main .item2 .img img{
+    width: 100px;
+    height: 100px;
+    padding: 15px 5px;
+}
+.main .right-main .item2 .text{
+    padding: 15px 5px;
+}
+.main .right-main .item2 .text a{
+    text-decoration: none;
+   cursor: pointer;
+    color: rgb(47, 47, 47);
+    font-size: 15px;
+    font-weight: bold;
+}
+.main .right-main  .item2 .text a:hover{
+    color: rgb(165, 27, 27);
+    text-decoration: dotted;
+}
+ .under-main{
+     position: absolute;
+     left: 0px;
+     display: flex;
+    background-color: rgb(197, 197, 197);
+    width: 72%;
+    height: 400px;
+    padding: 20px 10px 10px 15px;
+}
+.under-main a{
+    display: block;
+    margin-top: 5px;
+    font-size: 30px;
+    margin-left: 10px;
+    text-decoration: none;
+    color: #2f72a8;
+}
+.under-main a:hover{
+    color:rgb(152, 20, 20) ;
+}
+
+.foot2{
+    position: absolute;
+    top:1300px;
+    margin-top:40px;
+    width: 102%;
+    height: 200px;
+    background-image: linear-gradient(rgb(69, 151, 31),rgba(244,201,108,0.6));
+}
+footer{
+   display: flex;
+}
+.foot2 footer{
+    padding-top: 30px;
+}
+.foot2 a{
+    margin-top: 20px;
+    color:white;
+    text-decoration: none;
+    font-size: 30px;
+}
+.foot2 p{
+    position: relative;
+    bottom: 70px;
+    left: 30px;
+    color: white;
+    margin-left: 120px;
+    margin-bottom: 90px;
+}

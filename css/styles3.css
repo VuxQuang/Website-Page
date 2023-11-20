@@ -1,0 +1,250 @@
+*{
+    margin:0;
+    padding:0;
+     font-family:'Playfair Display', serif;
+     
+}
+.head{
+    display: flex;
+    width: 102%;
+    height: 180px;
+    background-image :linear-gradient(rgb(4, 77, 4),rgb(4,77,4,0.8)),url(../images/banner.jpg);
+    background-position: center;
+}
+ .head .logo a{
+    text-decoration: none;
+    color: rgb(230, 255, 233);
+    font-size: 30px;    
+    }
+.head .logo img{
+    padding-top: 30px;
+    padding-left: 20px;
+}
+.head .menu-left{
+    position: fixed;
+    top:0px;
+    left:180px;
+    background-color: transparent;
+    width:600px;
+    height: 100px;
+    z-index: 100;
+}
+.head .menu-left li{
+    display:inline;
+    
+}
+.head ul.menu-left{
+    text-align: center;
+    list-style: none;
+    margin:auto;
+    height: 100px;
+    right:0px;
+    box-shadow: 0px 4px 0px rgb(1, 49, 1);
+}
+.head .menu-left li a{
+    text-align: center;
+    width: 12%;
+    display:inline-block;
+    color : white;
+    text-decoration: none;
+    font-size: 15px;
+    padding: 40px 20px 20px 20px;
+    text-transform: uppercase;
+    transition: 0.4s;
+    box-shadow: 0px 4px 0px rgb(1, 49, 1);
+}
+.head .menu-left li :hover
+{
+    background-color:rgb(1, 146, 103);
+    padding-bottom: 35px;
+}
+.head .show ul{
+    display: inline;
+}
+.head .show li{
+    display:inline-block;
+}
+.head .show  a{
+    position: relative;
+    top:125px;
+    left:10px;
+    text-decoration: none;
+    color: white;
+    font-size: 30px;
+}
+.head .show a:hover{
+    text-decoration: underline; 
+    background-color:rgb(1, 146, 103);
+    transition: 0.5s;
+}
+.head .show ul li a{
+    font-size: 20px;
+}
+.head .show ul li :hover{
+   
+    padding: 8px 8px 8px 8px;
+    transition: 0.5s;
+}
+
+
+
+.body-top{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: 400px;
+    margin-top: 30px;
+    margin-left: 20px;
+    margin-right: 10px;
+}
+.body-top .item1{
+    width:30% ;
+     box-shadow: 2px -7px 10px rgb(146, 118, 223,0.6);
+     background-image: url(../images/thuvien1.jpg);
+     background-size: 100%;
+}
+.body-top  a{
+     text-decoration: none;
+     color: rgb(255, 255, 255);
+}
+ .body-top  p{
+     width: 100%;
+    position: relative;
+    background-color: rgb(185, 123, 243,0.8);
+    padding: 10px 10px 10px 10px;
+    left: 0px;
+    top: 300px;
+    font-size: 20px;
+    font-weight: bold;
+}
+.body-top :hover{
+    box-shadow: 2px -7px 15px rgba(109, 65, 230, 0.6);
+    transition: 0.5s;
+}
+.body-top a p:hover{
+    padding: 15px 15px 15px ;
+    transition: 0.5s;
+}
+.body-top .item2{
+    width:30% ;
+     box-shadow: 2px -7px 10px rgb(146, 118, 223,0.6);
+     background-image: url(../images/thuvien2.jpg);
+     background-size: 100%;
+}
+.body-top .item3{
+    width:30% ;
+     box-shadow: 2px -7px 10px rgb(146, 118, 223,0.6);
+     background-image: url(../images/thu\ vien\ 3.jpg);
+     background-size: 100%;
+}
+.body-mid{
+    margin-left: 13px;
+    margin-top:30px ;
+     display: flex;
+     width: 100%;
+     height: 400px;
+     justify-content: space-between;
+}
+.body-mid .mid-left{
+    width: 45%;
+    background-color: rgb(248, 232, 177);
+}
+.body-mid .menu-left {
+    display: flex;
+    justify-content: space-between;
+    border-bottom:1px solid rgb(177, 177, 177) ;
+}
+.body-mid .menu-left .box{
+     font-size: 20px;
+  width: 20%;
+  background-color: rgb(250, 218, 148);
+  text-align: center;
+  margin-top: 10px;
+  margin-left: 10px;
+  border-radius: 2px 2px 2px 2px;
+}
+.body-mid .menu-left  a{
+   margin-top: 20px;
+   margin-right: 70px;
+   text-decoration: none;
+   color: rgb(75, 75, 75);
+   text-transform: uppercase;
+   font-weight: bold;
+}
+.body-mid .menu-left  a:hover{
+    color: rgb(141, 7, 7);
+}
+.body-mid .mid-left h3{
+    width: 40%;
+    color: rgb(255, 255, 255);
+    font-size: 30px;
+    border-radius: 3px 3px 20px 3px;
+    background-color:  rgb(128, 136, 245);
+    text-align: center;
+}  
+.body-mid .mid-right{
+    width:45% ;
+    background-color: rgb(253, 224, 162);
+    border-bottom: 1px solid rgb(216, 214, 214);
+}
+.body-mid .mid-right h3{
+    width: 40%;
+    color: rgb(255, 255, 255);
+    font-size: 30px;
+    border-radius: 3px 3px 20px 3px;
+    background-color:  rgb(128, 136, 245);
+    text-align: center;
+}
+.body-mid .mid-right .menu-right{
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid rgb(211, 211, 211);
+}
+.body-mid .mid-right .box{
+    font-size: 20px;
+    width: 20%;
+    background-color: rgb(250, 218, 148);
+    text-align: center;
+    margin-top: 10px;
+    margin-left: 10px;
+    border-radius: 2px 2px 2px 2px;
+}
+.body-mid .mid-right .menu-right a{
+    margin-top: 20px;
+   margin-right: 70px;
+   text-decoration: none;
+   color: rgb(75, 75, 75);
+   text-transform: uppercase;
+   font-weight: bold;
+}
+.body-mid .menu-right  a:hover{
+    color: rgb(141, 7, 7);
+}
+.foot1{
+    position: absolute;
+    top:1100px;
+    margin-top:40px;
+    width: 102%;
+    height: 200px;
+    background-image: linear-gradient(rgb(69, 151, 31),rgba(244,201,108,0.6));
+}
+footer{
+   display: flex;
+}
+.foot1 footer{
+    padding-top: 30px;
+}
+.foot1 a{
+    margin-top: 20px;
+    color:white;
+    text-decoration: none;
+    font-size: 30px;
+}
+.foot1 p{
+    position: relative;
+    bottom: 70px;
+    left: 30px;
+    color: white;
+    margin-left: 120px;
+    margin-bottom: 90px;
+}

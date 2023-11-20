@@ -1,0 +1,108 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family:'Playfair Display', serif ;
+}
+
+.main{
+    width: 70%;
+    height: 600px;
+    margin-left: 200px;
+    box-shadow: -2px 0px 5px gray;
+}
+.main .border-form{
+    width: 600px;
+    height: 300px;
+   border-right: 2px solid gray;
+    margin-left: 20px;
+    z-index: 10;
+}
+.main .mid{
+    width: 60%;
+    
+}
+.main .mid h1{
+    margin-top: 25px;
+    margin-left: 200px;
+}
+.main .mid form{
+    margin-top: 50px;
+    margin-left: 80px;
+    width: 500px;
+}
+.main .mid form input{
+    width: 470px;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+}
+.main .mid form #message{
+    height: 70px;
+    font-size: 20px;
+}
+.main .mid form button{
+    width: 492px;
+    height: 30px;
+    background-color: burlywood;
+    border: none;
+    border-radius: 4px;
+}
+.main .mid form button:hover{
+    background: linear-gradient(to right, #d3959b, #bfe6ba);
+    transition: 0.5s;
+}
+.main .right{
+    width: 25%;
+    margin-right: 30px;
+}
+.main .right .icon2{
+    width: 100%;
+    height: 100px;
+    margin-top: 120px;
+    font-size: 30px;
+    padding: 10px;
+    border-bottom:1px solid gray ;
+}
+.main .right .icon2 a{
+    font-size: 16px;
+    text-decoration: none;
+    color: rgb(0, 37, 11);
+}
+.main .right .icon2 a:hover{
+    color: rgb(0, 49, 209);
+}
+.main .right img{
+    width: 100px;
+    height: 100px;
+    border-radius: 50px;
+    margin-top: 30px;
+    margin-left:50px ;
+}
+.foot5{
+    position: absolute;
+    top:800px;
+    margin-top:40px;
+    width: 102%;
+    height: 200px;
+    background-image: linear-gradient(rgb(69, 151, 31),rgba(244,201,108,0.6));
+}
+footer{
+   display: flex;
+}
+.foot5 footer{
+    padding-top: 30px;
+}
+.foot5 a{
+    margin-top: 20px;
+    color:white;
+    text-decoration: none;
+    font-size: 30px;
+}
+.foot5 p{
+    position: relative;
+    bottom: 70px;
+    left: 30px;
+    color: white;
+    margin-left: 120px;
+    margin-bottom: 90px;
+}
